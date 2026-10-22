@@ -8,12 +8,11 @@ package com.mycompany.principal;
  *
  * @author Santiago
  */
-public class Principal {
-
-public static void main(String[] args) {
-    VentanaPrincipal miVentanaPrincipal;
-    miVentanaPrincipal= new VentanaPrincipal();
-    miVentanaPrincipal.setVisible(true);
+public class Principal {    
+    public static void main(String[] args) {
+            VentanaPrincipal miVentanaPrincipal;
+            miVentanaPrincipal= new VentanaPrincipal();
+            miVentanaPrincipal.setVisible(true);
+            miVentanaPrincipal.setResizable(false);
     }
 }
-
